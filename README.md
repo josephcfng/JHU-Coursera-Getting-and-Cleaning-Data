@@ -27,10 +27,11 @@ The tidy dataset output can be read in R through read.table("final_data.txt",hea
 
 The dataset output contain the following variables:
 
-Columns 1 and 2 - 
-1.  Subject: Subject ID (1 - 30).
-2.  Activity: The activity that the subject is engaged in when recorded the observations.
-    Data here are descriptive names taken from activity_labels.txt with the numeric index.
+Column 1 - Subject: Subject ID (1 - 30).
+
+Column 2 - Activity: The activity that the subject is engaged in when recorded the 
+observations.Data here are descriptive names taken from activity_labels.txt with the 
+numeric index.
 
 Columns 3 to 68 - 
 Column names are in the form "Average_(some measurement)". This denotes the average of that
